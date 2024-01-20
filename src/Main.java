@@ -34,5 +34,15 @@ public class Main {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        long n = sc.nextLong();
+        if(isFibo(n) && isPrime(n)) {
+            System.out.println("So hoan hao");
+        }
+        else {
+            System.out.println("So khong hoan hao");
+        }
+        sc.nextLine();
+        String s = sc.nextLine();
+        System.out.println(convertString(s));
     }
 }
